@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: railgrid
 spec:
-  version: v0.2.33
+  version: v0.2.34
   platforms:
     - bin: kubectl-railgrid.exe
-      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.33/kubectl-railgrid_Windows_x86_64.tar.gz
-      sha256: 827d917e7e067e1ee6c6f8b194d3c4d376b2d344190a60f1a3393a060201e686
+      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.34/kubectl-railgrid_Windows_x86_64.tar.gz
+      sha256: 48683aa66b12777bc862508a0f053889e1a77518593f49727bf71f3aaf1f684b
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: kubectl-railgrid.exe
-      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.33/kubectl-railgrid_Windows_arm64.tar.gz
-      sha256: 2bfb51c65b6750d07fc150fad7ff35f94546007e109b61e7637d04e8762d85a9
+      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.34/kubectl-railgrid_Windows_arm64.tar.gz
+      sha256: 39adda2d7ded7e07a3ec5e280ef61a3f0c8b281a48b595ff0a738e148cd2e04f
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: kubectl-railgrid
-      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.33/kubectl-railgrid_Linux_x86_64.tar.gz
-      sha256: 79e3caf723d461cbe59b98a0f1b8a886f7583b12b359a64431adea78e229fe94
+      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.34/kubectl-railgrid_Linux_x86_64.tar.gz
+      sha256: 6eefdd4fcaf6d0494d20c20961353ef0da95f8547d15a8f07885c1b90cc0fd93
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: kubectl-railgrid
-      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.33/kubectl-railgrid_Linux_aarch64.tar.gz
-      sha256: 5ec6816d92e2ac5653192301b5a1135b84661e198d4cb8406b113cc70d2e1695
+      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.34/kubectl-railgrid_Linux_aarch64.tar.gz
+      sha256: 6667174f7b672653c792cf9deb9aaf15d90985371b0b9a419389b0767def2139
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: kubectl-railgrid
-      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.33/kubectl-railgrid_Darwin_x86_64.tar.gz
-      sha256: b5a0a8c742757e92ece7066a7c6b964a3c69a3836db2c827b427bf25c7abdb15
+      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.34/kubectl-railgrid_Darwin_x86_64.tar.gz
+      sha256: 24705af45daa0a67d802e3d02273942f8879fbed719f49350f1d9fb920aeaa18
       selector:
         matchLabels:
           os: darwin
           arch: amd64
     - bin: kubectl-railgrid
-      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.33/kubectl-railgrid_Darwin_arm64.tar.gz
-      sha256: 5a98756bb24c639f60aad67f6fe5ec68af867ea2636de27d64307f87c5de0846
+      uri: https://downloads.railgrid.ai/cli/railgrid/v0.2.34/kubectl-railgrid_Darwin_arm64.tar.gz
+      sha256: 6320bc893fa1d9c194a0569d6dbc6caf7220442fcec6938d7f1d7d53731411ba
       selector:
         matchLabels:
           os: darwin
